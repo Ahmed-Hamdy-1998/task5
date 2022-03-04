@@ -1,0 +1,8 @@
+
+- df = pd.DataFrame(columns=np.arange(10))
+  df[df.columns[-3:]]
+
+  Out[221]:
+  Empty DataFrame
+  Columns: [7, 8, 9]
+  Index: []

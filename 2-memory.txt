@@ -1,0 +1,15 @@
+- To store a floating-point number, 4-byte(32 bit) memory will be allocated in computer.
+
+	1 bit for sign
+
+	8 bit for exponent part
+
+	23 bit for significant part
+
+
+-  Integers
+	 Integers are commonly stored using a word of memory, which is 4 bytes or 32 bits, 
+	so integers from 0 up to 4,294,967,295 (232 - 1) can be stored. 
+	Below are the integers 1 to 5 stored as four-byte values (each row represents one integer).
+
+-

@@ -1,0 +1,21 @@
+
+- Replacing column values in a Pandas dataframe changes every occurrence of that value in the column.
+
+USE DataFrame.replace() TO REPLACE COLUMN VALUES IN A PANDAS DATAFRAME
+Access a specific pandas.DataFrame column using DataFrame[column_name]. To replace values in the column, call DataFrame.replace(to_replace, inplace=True) with to_replace set as a dictionary mapping old values to new values.
+
+df = pd.DataFrame({"column1": ["a", "b", "a"]})
+print(df)
+OUTPUT
+  column1
+0       a
+1       b
+2       a
+
+df["column1"].replace({"a": "x", "b": "y"}, inplace=True)
+print(df)
+OUTPUT
+  column1
+0       x
+1       y
+2       x

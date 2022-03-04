@@ -1,0 +1,19 @@
+
+- my sqal : 
+	
+	MySQL is the primary database used by Facebook for storing all the social data
+
+The database is the process of collecting data. It supports different methods of storing and utilizing data. Through this process management of data
+becomes easy. A particular database is mainly controlled by a DBMS or database management system.
+A particular database management system enables the end users to read, update and delete data in a database. It importantly serves as an affiliate
+between the database and the application programs that makes sure that data is spontaneously organized and is easily accessible.
+A particular database can be of different types. It can in the form of a simple text file or it can also be as complex as the relational database management
+system.
+Different Database Systems used by Facebook
+There are quite a number of databases that Facebook uses in order to keep a record of the various information that is being shared by different people all
+over the world. Among them, few of the databases are
+- MYSQL
+- HBase
+- Cassandra
+- Haystack
+- Memcached

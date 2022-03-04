@@ -1,0 +1,10 @@
+
+- Using parameter n, which selects n numbers of rows randomly.
+Select n numbers of rows randomly using sample(n) or sample(n=n). Each time you run this, you get n different rows. 
+ 
+
+	# To get 3 random rows	
+	# each time it gives 3 different rows
+ 
+	# df.sample(3) or
+	df.sample(n = 3)
